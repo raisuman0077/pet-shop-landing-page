@@ -1,0 +1,37 @@
+.section-body{
+    width: 100%;
+    padding: 100px 0 0 80px;
+    height: 100vh;
+}
+.section-wb, .form-control{
+    width: 41rem;
+    padding-top: 60px;
+}
+.pb-font{
+    margin-top: -1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #94A1B2;
+    line-height: 112px;
+    letter-spacing: -0.02em;
+}
+.sb-font{
+    width: 533px;
+    Font-family: Open Sans;
+    Font-style: SemiBold;
+    color: #D1D1D1;
+    Font-size: 32px;
+    Line-height: 44px;
+    text-align: Left;
+    Letter-spacing: -7.5%;
+}
+.bg-image{
+    width: 100%;
+    margin-top: -120px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/Banner1.png');
+}

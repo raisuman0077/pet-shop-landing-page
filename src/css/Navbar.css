@@ -17,11 +17,12 @@ a:hover{
 
 .navbar-nav{
     display: flex;
-    padding: 0px;
-    margin-left: 14rem;
+    padding-bottom: 18px;
     gap: 24px;
-    width: 632px;
-    height: 53px;
+    width: 505px;
+}
+.navbar-collapse{
+    margin-left: 10px;
 }
 .nav-link{
     width: 7rem;
@@ -65,6 +66,7 @@ a{
 .signup-btn{
     border-radius: 2px;
     color: #fff;
+    border-color: #7F5AF0;
     background-color:  #7F5AF0;
 }
 .login-btn{

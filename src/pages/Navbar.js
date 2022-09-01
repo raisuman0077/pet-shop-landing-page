@@ -26,7 +26,7 @@ const Navbar = () => {
               <a className="nav-link" href="true">Contact us</a>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          <form className="form-inline my-2 mx-3 my-lg-0">
             <button className="signup-btn" href="true">Sign up</button>
             <button className="login-btn mx-2" href="true">Login</button>
           </form>
