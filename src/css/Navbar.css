@@ -1,12 +1,74 @@
 .navbar{
-    height: 238px;
-    width: 1774px;
-    left: -23px;
-    top: -22px;
-    border-radius: 0px;
-
-}
-.icon{
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
     position: absolute;
-    padding: 4.67px 0;
+    width: 100%;
+    backdrop-filter: blur(35px);
+}
+a:hover{
+    color: #7F5AF0;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(127, 90, 240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.custom-toggler.navbar-toggler {
+    border-color: rgb(109, 77, 203);
+  } 
+
+.navbar-nav{
+    display: flex;
+    padding: 0px;
+    margin-left: 14rem;
+    gap: 24px;
+    width: 632px;
+    height: 53px;
+}
+.nav-link{
+    width: 7rem;
+    color: #fff;
+}
+.nav-item{
+    width: 66px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 1rem;
+    letter-spacing: -0.075em;
+}
+.navbar-brand{
+    text-align: center;
+}
+.brand-icon{
+    margin-top: -13px;
+    height: 50px;
+    width: 46px;
+}
+.brand-logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+a{
+    text-decoration: none !important;
+}
+.pre-logo{
+    color: #7F5AF0;
+}
+
+
+.signup-btn{
+    border-radius: 2px;
+    color: #fff;
+    background-color:  #7F5AF0;
+}
+.login-btn{
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border-color: #7F5AF0;
 }
