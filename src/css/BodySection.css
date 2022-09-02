@@ -44,17 +44,23 @@
     background-color: #7F5AF0;
 }
 .side-image{
-    background-color: white;
-}
-.pet-img{
     margin-top: -15rem;
     height: 952px;
     width: 848px;
     margin-left: -53rem;
 }
+
 .brands-logo{
     text-align: center;
     width: 100%;
     display: inline-flex;
     background-color: #9786AC;
+}
+
+.b2-text{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: Poppins;
+    letter-spacing: -2%;
 }
