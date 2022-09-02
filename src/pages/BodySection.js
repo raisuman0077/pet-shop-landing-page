@@ -16,7 +16,7 @@ const BodySection = () => {
                     </form> 
                 </div>
                 <div className='side-image'>
-                    <img src={banner} alt="pet" />
+                    <img className='pet-img' src={banner} alt="pet" />
                 </div>
             </div>
             <div className="brands-logo">

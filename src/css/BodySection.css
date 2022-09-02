@@ -7,6 +7,9 @@
     width: 100%;
     padding: 60px 0 0 80px;
 }
+.section-b1{
+    width: 100%;
+}
 .input-form{
     padding: 70px 0;
 }
@@ -41,7 +44,13 @@
     background-color: #7F5AF0;
 }
 .side-image{
-    margin-top: -18rem;
+    background-color: white;
+}
+.pet-img{
+    margin-top: -15rem;
+    height: 952px;
+    width: 848px;
+    margin-left: -53rem;
 }
 .brands-logo{
     text-align: center;
