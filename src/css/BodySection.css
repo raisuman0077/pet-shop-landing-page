@@ -1,14 +1,18 @@
 .section-body{
     width: 100%;
-    padding: 100px 0 0 80px;
-    height: 100vh;
+    padding: 100px 0;
+    height: 90vh;
 }
-.section-wb, .form-control{
-    width: 41rem;
-    padding-top: 60px;
+.section-wb{
+    width: 100%;
+    padding: 60px 0 0 80px;
+}
+.input-form{
+    padding: 70px 0;
 }
 .pb-font{
-    margin-top: -1.5rem;
+    width: 41rem;
+    padding: 0 0 0 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -18,20 +22,30 @@
     letter-spacing: -0.02em;
 }
 .sb-font{
-    width: 533px;
+    width: 34rem;
     Font-family: Open Sans;
-    Font-style: SemiBold;
     color: #D1D1D1;
     Font-size: 32px;
     Line-height: 44px;
     text-align: Left;
-    Letter-spacing: -7.5%;
+    margin-top: -18px;
+    Letter-spacing: -0.5px;
 }
-.bg-image{
+.form-control{
+    width: 35rem;
+    margin: -12px 0 20px;
+}
+.shop-btn{
+    border-radius: 0;
+    color: #D1D1D1;
+    background-color: #7F5AF0;
+}
+.side-image{
+    margin-top: -18rem;
+}
+.brands-logo{
+    text-align: center;
     width: 100%;
-    margin-top: -120px;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/Banner1.png');
+    display: inline-flex;
+    background-color: #9786AC;
 }

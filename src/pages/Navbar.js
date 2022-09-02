@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../icon/Vector.png';
 const Navbar = () => {
     return ( 
-      <nav className="navbar navbar-expand-lg navbar-fixed-top">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <div className="navbar-brand pl-4" href="true">
           <img className="brand-icon" src={logo} alt="brand-logo-icon" />
           <a className="brand-logo" href="true"><span className="pre-logo">PET</span>SHOP</a>
