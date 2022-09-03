@@ -49,11 +49,10 @@ const BodySection = ({data}) => {
                         </div>
                     </div>
                 </div>                
-    ))}
-                
+    ))}        
             </div>
-            <div className='product-btn'>
-                <button className='btn morepdt-btn'>see more</button>
+            <div className='product-btn my-2'>
+                <button className='btn morepdt-btn my-4'>see more</button>
                 </div>
         </section>
      );
