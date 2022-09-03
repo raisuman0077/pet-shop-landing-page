@@ -64,3 +64,36 @@
     font-family: Poppins;
     letter-spacing: -2%;
 }
+
+.products{
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.product-detail{
+    height: auto;
+}
+.card{
+    border-radius: none;
+    background-color: #141415;
+}
+.card-title{
+    margin-top: -18px;
+    color: #94A1B2;
+}
+.card-text{
+    margin-top: -9px;
+    color: #7F5AF0;
+}
+
+.rate-star{
+    margin-left: -0.3rem;
+}
+.product-btn{
+    text-align: center;
+}
+.morepdt-btn{
+    color: #fff;
+    border-color: #7F5AF0;
+}
