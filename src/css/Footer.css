@@ -1,0 +1,26 @@
+.footer-section{
+    padding-left: 80px;
+
+}
+.top-section .fbrand-icon{
+    margin-top: -1rem;
+    height: auto;
+    width: 45px;
+}
+.top-section .fbrand-logo{
+    font-family: poopins;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+.top-section .aftext-logo{
+    color: #7453d8;;
+}
+.mid-section{
+    display: inline-flex;
+    background-color: pink;
+}
+.end-section{
+    background-color: aqua;
+}

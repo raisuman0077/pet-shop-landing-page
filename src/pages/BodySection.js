@@ -51,7 +51,7 @@ const BodySection = ({data}) => {
                 </div>                
     ))}        
             </div>
-            <div className='product-btn my-2'>
+            <div className='fproduct-btn my-2'>
                 <button className='btn morepdt-btn my-4'>see more</button>
             </div>
             <div className='offer-section'>
@@ -77,6 +77,9 @@ const BodySection = ({data}) => {
             </div>                
 ))}        
         </div>
+        <div className='pproduct-btn my-2'>
+                <button className='btn morepdt-btn my-4'>see more</button>
+            </div>
         </section>
      );
 }

@@ -1,7 +1,6 @@
 .section-body{
     width: 100%;
     padding: 100px 0;
-    height: 90vh;
 }
 .section-wb{
     width: 100%;
@@ -90,10 +89,14 @@
 .rate-star{
     margin-left: -0.3rem;
 }
-.product-btn{
+.fproduct-btn , .pproduct-btn{
     text-align: center;
 }
 .morepdt-btn{
+    width: 100px;
     color: #fff;
     border-color: #7F5AF0;
+}
+.morepdt-btn:hover{
+    color: #7F5AF0;
 }
