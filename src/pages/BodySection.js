@@ -4,10 +4,10 @@ import payoneerlogo from '../images/Payoneer.png';
 import paypallogo from '../images/PayPal.png';
 import petsmartlogo from '../images/PetSmart.png';
 import banner from '../images/Banner1.png';
+import offerBanner from '../images/offerbanner.png';
 import { Rating } from 'react-simple-star-rating';
 
 const BodySection = ({data}) => {
-
     const [rating, setRating] = useState(0);
     const handleRating = (rate) => {
         setRating(rate);
@@ -53,7 +53,30 @@ const BodySection = ({data}) => {
             </div>
             <div className='product-btn my-2'>
                 <button className='btn morepdt-btn my-4'>see more</button>
+            </div>
+            <div className='offer-section'>
+                    <img src={offerBanner} alt="offer-banner" style={{height:'300px', width:"100%"}} />
+            </div>
+            <h3 className='b2-text py-5'>Latest Products</h3>
+            <div className="products mx-5">
+            {data.map((d,id)=>(
+                <div className="product-detail" key={id}>
+                <div className="card mx-5">
+                <img src={d.img} className="card-img py-4 px-4" alt="product" />
+                <div className="card-body">
+                    <h5 className="card-title">{d.title}</h5>
+                    <p className="card-text">N{d.price}</p>
+                    <Rating  className='rate-star'
+                        onClick={handleRating} 
+                        ratingValue={rating} 
+                        initialValue={d.star}
+                        allowHalfIcon 
+                        size={30} />
+                    </div>
                 </div>
+            </div>                
+))}        
+        </div>
         </section>
      );
 }
