@@ -1,21 +1,45 @@
 import footericon from '../icon/Vector.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return ( 
-        <div className="footer-section">
-            <div className="top-section">
-                <img className="fbrand-icon mx-3" href="true" src={footericon} alt="brand-logo-icon" />
-                <a className="fbrand-logo" href="true"><span className="aftxt-logo">PET</span>SHOP</a>
+        <footer>
+            <div className="footer-section py-2">
+                <div className="top-section my-5">
+                    <img className="fbrand-icon mx-3" href="true" src={footericon} alt="brand-logo-icon" />
+                    <a className="fbrand-logo mr-3" href="true"><span className="aftxt-logo">PET</span>SHOP</a>
+                </div>
+                <div className="mid-section row">
+                    <div className='col-4 pr-4'>
+                        <h2>About</h2>
+                        <p>Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo. Vestibulum sit amet ipsum vitae mauris mattis vulputate lacinia nec neque. Aenean</p>
+                    </div>
+                    <div className='col-4'>
+                        <h2>Locate us</h2>
+                    </div>
+                    <div className='col-4 pr-4'>
+                        <h2>Quick Links</h2>
+                        <ul className='link-items'>
+                            <li><a href='true' className='link-item'>Home</a></li>
+                            <li><a href='true' className='link-item'>Featured</a></li>
+                            <li><a href='true' className='link-item'>About</a></li>
+                            <li><a href='true' className='link-item'>Blogs</a></li>
+                            <li><a href='true' className='link-item'>Contact us</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div className="mid-section">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+            <div className="end-section mt-2 d-flex justify-content-between">
+                <p>Copyright - 2022-PetShop- All rights reserved</p>
+                <ul className='d-flex'>
+                    <li><a className='media-icon mr-4' href="true"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                    <li><a className='media-icon ' href="true"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                    <li><a className='media-icon mx-4' href="true"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                </ul>
             </div>
-            <div className="end-section">
-                end
-            </div>
-        </div>
+        </footer>
      );
 }
  

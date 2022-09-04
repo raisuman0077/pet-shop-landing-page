@@ -1,26 +1,45 @@
-.footer-section{
-    padding-left: 80px;
+.footer-section{ 
+    position: inherit;
+    background-color: #242629;;
 
 }
-.top-section .fbrand-icon{
+.top-section{
+    width: fit-content;
+    background-color: #0B0711;
+} 
+.fbrand-icon{
     margin-top: -1rem;
     height: auto;
     width: 45px;
 }
-.top-section .fbrand-logo{
+.fbrand-logo{
     font-family: poopins;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     color: #fff;
 }
-.top-section .aftext-logo{
-    color: #7453d8;;
+.aftxt-logo{
+    color: #7F5AF0;
 }
 .mid-section{
-    display: inline-flex;
-    background-color: pink;
+    color: #fff;
+}
+.link-items{
+    margin-left: -2rem;
+}
+.link-item{
+    color: #fff;
+}
+.link-item:hover {
+    color: #7F5AF0;
+}
+ul, li{
+    list-style: none;
 }
 .end-section{
-    background-color: aqua;
+    color: #fff;
+}
+.media-icon{
+    color: #fff;
 }
