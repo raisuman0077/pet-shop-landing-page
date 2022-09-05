@@ -15,7 +15,7 @@ const BodySection = ({data}) => {
         <section className="section-body ">
             <div className="section-b1 d-flex">
                 <div className='section-wb'>
-                    <p className="pb-font px-1">.Let's help Treat your Pet Right.</p>
+                    <p className="pb-font">.Let's help Treat your Pet Right.</p>
                     <p className="sb-font">Shop the best products for your pets from top brands in the industry</p>
                     <form className="input-form">
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
@@ -24,10 +24,10 @@ const BodySection = ({data}) => {
                 </div>
             </div>
             <div className="brands-logo">
-                    <img src={flutterlogo} style={{width:'25%',height:"68px"}} alt="flutter-logo" />
-                    <img src={petsmartlogo} style={{width:'25%',height:"70px"}} alt="payoneer-logo" />
-                    <img src={paypallogo} style={{width:'25%',height:"85px"}} alt="paypal-logo" />
-                    <img src={payoneerlogo} style={{width:'25%',height:"75px"}} alt="petsmart-logo" />
+                    <img src={flutterlogo} style={{height:"68px"}} alt="flutter-logo" />
+                    <img src={petsmartlogo} style={{height:"70px"}} alt="payoneer-logo" />
+                    <img src={paypallogo} style={{height:"85px"}} alt="paypal-logo" />
+                    <img src={payoneerlogo} style={{height:"75px"}} alt="petsmart-logo" />
             </div>
             <h3 className='b2-text py-5'>Featured Products</h3>
             <div className="products mx-5">

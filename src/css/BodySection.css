@@ -16,14 +16,13 @@
     padding: 70px 0;
 }
 .pb-font{
-    width: 41rem;
+    width: 656px;
     padding: 0 0 0 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 4rem;
     color: #94A1B2;
-    line-height: 112px;
     letter-spacing: -0.02em;
 }
 .sb-font{
@@ -53,9 +52,12 @@
 }
 
 .brands-logo{
-    text-align: center;
-    width: 100%;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20.125px 32px;
+    gap: 37.03px;
     background-color: #9786AC;
 }
 
