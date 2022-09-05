@@ -1,0 +1,9 @@
+.chat-btn{
+    border: none;
+    border-radius: 2px;
+    position: sticky;
+    float: right;
+    bottom: 50%;
+    background-color: #7F5AF0;
+    color: #fff;
+}

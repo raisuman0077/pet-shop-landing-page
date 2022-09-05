@@ -88,7 +88,6 @@
     margin-top: -9px;
     color: #7F5AF0;
 }
-
 .rate-star{
     margin-left: -0.3rem;
 }
@@ -102,4 +101,56 @@
 }
 .morepdt-btn:hover{
     color: #7F5AF0;
+}
+.subscription-section{
+    height: 500px;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    background-image: url('../images/banner2.png');
+    background-repeat: no-repeat;
+}
+.subscription-headertxt{
+    color: #fff;
+    text-align: center;
+    font-size: 75px;
+    font-family: Poppins;
+    line-height: 112px;
+    letter-spacing: -2%,
+}
+.subscription-subtxt{
+    width: 750px;
+    text-align: center;
+    color: #D1D1D1;
+    font-family: Open Sans;
+    font-style: SemiBold;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -7.5%;
+}
+.email-input{
+    height: 60px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: #7F5AF0;
+
+}
+::placeholder{
+    text-align: center;
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 42px;
+}
+.subscribe-btn, .sub-text{
+    text-align: -webkit-center;
+    width: 100%;
+}
+.sub-btn{
+    width: 205px;
+    height: 60px;
+    text-align: center;
+    background-color: #7F5AF0;
+    border-radius: 5px;
+    color: #fff;
 }

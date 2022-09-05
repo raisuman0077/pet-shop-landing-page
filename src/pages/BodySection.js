@@ -3,7 +3,6 @@ import flutterlogo from '../images/Flutterwave.png';
 import payoneerlogo from '../images/Payoneer.png';
 import paypallogo from '../images/PayPal.png';
 import petsmartlogo from '../images/PetSmart.png';
-import banner from '../images/Banner1.png';
 import offerBanner from '../images/offerbanner.png';
 import { Rating } from 'react-simple-star-rating';
 
@@ -25,10 +24,10 @@ const BodySection = ({data}) => {
                 </div>
             </div>
             <div className="brands-logo">
-                    <img src={flutterlogo} style={{width:'470px',height:"68px"}} alt="flutter-logo" />
-                    <img src={petsmartlogo} style={{width:'376px',height:"70px"}} alt="payoneer-logo" />
-                    <img src={paypallogo} style={{width:'333px',height:"85px"}} alt="paypal-logo" />
-                    <img src={payoneerlogo} style={{width:'314px',height:"75px"}} alt="petsmart-logo" />
+                    <img src={flutterlogo} style={{width:'25%',height:"68px"}} alt="flutter-logo" />
+                    <img src={petsmartlogo} style={{width:'25%',height:"70px"}} alt="payoneer-logo" />
+                    <img src={paypallogo} style={{width:'25%',height:"85px"}} alt="paypal-logo" />
+                    <img src={payoneerlogo} style={{width:'25%',height:"75px"}} alt="petsmart-logo" />
             </div>
             <h3 className='b2-text py-5'>Featured Products</h3>
             <div className="products mx-5">
@@ -54,7 +53,7 @@ const BodySection = ({data}) => {
                 <button className='btn morepdt-btn my-4'>see more</button>
             </div>
             <div className='offer-section'>
-                    <img src={offerBanner} alt="offer-banner" style={{height:'300px', width:"100%"}} />
+                <img src={offerBanner} alt="offer-banner" style={{width:"100%"}} />
             </div>
             <h3 className='b2-text py-5'>Latest Products</h3>
             <div className="products mx-5">
@@ -76,8 +75,19 @@ const BodySection = ({data}) => {
             </div>                
 ))}        
         </div>
-        <div className='pproduct-btn my-2'>
+            <div className='pproduct-btn my-2'>
                 <button className='btn morepdt-btn my-4'>see more</button>
+            </div>
+            <div className='subscription-section'>
+                <h4 className='subscription-headertxt'>Subscribe to our Newsletter</h4>
+                <div className='sub-text'>
+                    <p className='subscription-subtxt'>Get updated with tips on how to treat your pets right and
+                    latest products suitable for your pets</p>
+                </div>
+                    <input className='email-input' placeholder='Enter your email' />
+                <div className='subscribe-btn mt-2'>
+                    <button className='sub-btn'>Subscribe</button>
+                </div>
             </div>
         </section>
      );

@@ -39,12 +39,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="end-section mt-2 d-flex justify-content-between">
+            <div className="end-section mt-2 mx-3 d-flex justify-content-between">
                 <p>Copyright - 2022-PetShop- All rights reserved</p>
                 <ul className='d-flex'>
                     <li><a className='media-icon mr-4' href="true"><FontAwesomeIcon icon={faFacebook} /></a></li>
                     <li><a className='media-icon ' href="true"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                    <li><a className='media-icon mx-4' href="true"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                    <li><a className='media-icon mx-3' href="true"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 </ul>
             </div>
         </footer>
