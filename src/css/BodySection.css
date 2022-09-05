@@ -8,6 +8,9 @@
 }
 .section-b1{
     width: 100%;
+    background-image: url('../images/Banner1.png');
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 .input-form{
     padding: 70px 0;

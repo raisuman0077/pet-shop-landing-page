@@ -17,16 +17,16 @@ const Footer = () => {
                     <img className="fbrand-icon mx-3" href="true" src={footericon} alt="brand-logo-icon" />
                     <a className="fbrand-logo mr-3" href="true"><span className="aftxt-logo">PET</span>SHOP</a>
                 </div>
-                <div className="mid-section row">
-                    <div className='col-4 pr-4'>
+                <div className="mid-section">
+                    <div className='mid-item pr-4'>
                         <h2>About</h2>
                         <p>Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo. Vestibulum sit amet ipsum vitae mauris mattis vulputate lacinia nec neque. Aenean</p>
                     </div>
-                    <div className='col-4'>
+                    <div className='mid-item mb-2'>
                         <h2>Locate us</h2>
                         <iframe id="iframeId" title='map' height="300px" width="90%" />
                         </div>
-                    <div className='col-4 pr-4'>
+                    <div className='mid-item pr-1'>
                         <h2>Quick Links</h2>
                         <ul className='link-items'>
                             <li><a href='true' className='link-item'>Home</a></li>

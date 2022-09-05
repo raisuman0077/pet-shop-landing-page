@@ -13,7 +13,7 @@ const BodySection = ({data}) => {
         setRating(rate);
     }
     return ( 
-        <section className="section-body">
+        <section className="section-body ">
             <div className="section-b1 d-flex">
                 <div className='section-wb'>
                     <p className="pb-font px-1">.Let's help Treat your Pet Right.</p>
@@ -23,7 +23,6 @@ const BodySection = ({data}) => {
                         <button className="btn shop-btn" type="submit">Shop now</button>
                     </form> 
                 </div>
-                <div className='side-image' style={{backgroundImage:`url(${banner})`}} />
             </div>
             <div className="brands-logo">
                     <img src={flutterlogo} style={{width:'470px',height:"68px"}} alt="flutter-logo" />
@@ -34,7 +33,7 @@ const BodySection = ({data}) => {
             <h3 className='b2-text py-5'>Featured Products</h3>
             <div className="products mx-5">
                 {data.map((d,id)=>(
-                    <div className="product-detail" key={id}>
+                    <div className="product-detail mb-4" key={id}>
                     <div className="card mx-5">
                     <img src={d.img} className="card-img py-4 px-4" alt="product" />
                     <div className="card-body">
@@ -60,7 +59,7 @@ const BodySection = ({data}) => {
             <h3 className='b2-text py-5'>Latest Products</h3>
             <div className="products mx-5">
             {data.map((d,id)=>(
-                <div className="product-detail" key={id}>
+                <div className="product-detail mb-4" key={id}>
                 <div className="card mx-5">
                 <img src={d.img} className="card-img py-4 px-4" alt="product" />
                 <div className="card-body">
