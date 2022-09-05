@@ -1,8 +1,15 @@
+import React, {useEffect} from 'react';
 import footericon from '../icon/Vector.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
+    useEffect(()=>{
+        const ifameData=document.getElementById("iframeId")
+        const lat=27.698597;
+        const lon=85.300383;
+        ifameData.src=`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`
+    })
     return ( 
         <footer>
             <div className="footer-section py-2">
@@ -17,7 +24,8 @@ const Footer = () => {
                     </div>
                     <div className='col-4'>
                         <h2>Locate us</h2>
-                    </div>
+                        <iframe id="iframeId" title='map' height="300px" width="90%" />
+                        </div>
                     <div className='col-4 pr-4'>
                         <h2>Quick Links</h2>
                         <ul className='link-items'>
