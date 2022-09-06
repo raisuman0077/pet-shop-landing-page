@@ -15,7 +15,7 @@ const BodySection = ({data}) => {
         <section className="section-body ">
             <div className="section-b1 d-flex">
                 <div className='section-wb'>
-                    <p className="pb-font">.Let's help Treat your Pet Right.</p>
+                    <p className="pb-font mx-1">.Let's help Treat your Pet Right.</p>
                     <p className="sb-font">Shop the best products for your pets from top brands in the industry</p>
                     <form className="input-form">
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
@@ -24,15 +24,15 @@ const BodySection = ({data}) => {
                 </div>
             </div>
             <div className="brands-logo">
-                    <img src={flutterlogo} style={{height:"68px"}} alt="flutter-logo" />
-                    <img src={petsmartlogo} style={{height:"70px"}} alt="payoneer-logo" />
-                    <img src={paypallogo} style={{height:"85px"}} alt="paypal-logo" />
-                    <img src={payoneerlogo} style={{height:"75px"}} alt="petsmart-logo" />
+                    <img className='mx-1' src={flutterlogo} style={{width:'25%',height:"68px"}} alt="flutter-logo" />
+                    <img src={petsmartlogo} style={{width:'25%',height:"70px"}} alt="payoneer-logo" />
+                    <img src={paypallogo} style={{width:'25%',height:"85px"}} alt="paypal-logo" />
+                    <img src={payoneerlogo} style={{width:'25%',height:"75px"}} alt="petsmart-logo" />
             </div>
             <h3 className='b2-text py-5'>Featured Products</h3>
-            <div className="products mx-5">
+            <div className="row products mx-5">
                 {data.map((d,id)=>(
-                    <div className="product-detail mb-4" key={id}>
+                <div className="col-4 product-detail mb-4" key={id}>
                     <div className="card mx-5">
                     <img src={d.img} className="card-img py-4 px-4" alt="product" />
                     <div className="card-body">
@@ -56,10 +56,10 @@ const BodySection = ({data}) => {
                 <img src={offerBanner} alt="offer-banner" style={{width:"100%"}} />
             </div>
             <h3 className='b2-text py-5'>Latest Products</h3>
-            <div className="products mx-5">
+            <div className="row products mx-5">
             {data.map((d,id)=>(
-                <div className="product-detail mb-4" key={id}>
-                <div className="card mx-5">
+                <div className="col-4 product-detail mb-4" key={id}>
+                <div className="mx-5">
                 <img src={d.img} className="card-img py-4 px-4" alt="product" />
                 <div className="card-body">
                     <h5 className="card-title">{d.title}</h5>

@@ -19,7 +19,6 @@
     width: 656px;
     padding: 0 0 0 0;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 4rem;
     color: #94A1B2;
@@ -27,9 +26,9 @@
 }
 .sb-font{
     width: 34rem;
-    Font-family: Open Sans;
+    Font-family: 'OpenSans';
     color: #D1D1D1;
-    Font-size: 32px;
+    Font-size: 2rem;
     Line-height: 44px;
     text-align: Left;
     margin-top: -18px;
@@ -52,6 +51,7 @@
 }
 
 .brands-logo{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,20 +64,21 @@
 .b2-text{
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: Poppins;
     letter-spacing: -2%;
 }
 
-.products{
+/* .products{
     display: grid;
-    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr;
     grid-template-rows: 1fr 1fr;
    
-}
-.product-detail{
+} */
+/* .product-detail{
     height: auto;
-}
+    display: grid;
+} */
 .card{
     border-radius: none;
     background-color: #141415;
@@ -115,8 +116,8 @@
 .subscription-headertxt{
     color: #fff;
     text-align: center;
-    font-size: 75px;
-    font-family: Poppins;
+    font-size: 4.688rem;
+    font-family: 'Poppins';
     line-height: 112px;
     letter-spacing: -2%,
 }
@@ -124,9 +125,9 @@
     width: 750px;
     text-align: center;
     color: #D1D1D1;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: SemiBold;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 44px;
     letter-spacing: -7.5%;
 }
@@ -139,9 +140,9 @@
 }
 ::placeholder{
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: SemiBold;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 42px;
 }
 .subscribe-btn, .sub-text{
