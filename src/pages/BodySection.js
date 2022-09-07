@@ -24,10 +24,10 @@ const BodySection = ({data}) => {
                 </div>
             </div>
             <div className="brands-logo">
-                    <img className='mx-1' src={flutterlogo} style={{width:'25%',height:"68px"}} alt="flutter-logo" />
-                    <img src={petsmartlogo} style={{width:'25%',height:"70px"}} alt="payoneer-logo" />
-                    <img src={paypallogo} style={{width:'25%',height:"85px"}} alt="paypal-logo" />
-                    <img src={payoneerlogo} style={{width:'25%',height:"75px"}} alt="petsmart-logo" />
+                    <img src={flutterlogo} style={{width:'25%',height:"4.25rem"}} alt="flutter-logo" />
+                    <img src={petsmartlogo} style={{width:'25%',height:"4.688rem"}} alt="payoneer-logo" />
+                    <img src={paypallogo} style={{width:'25%',height:"5.313rem"}} alt="paypal-logo" />
+                    <img src={payoneerlogo} style={{width:'25%',height:"4.688rem"}} alt="petsmart-logo" />
             </div>
             <h3 className='b2-text py-5'>Featured Products</h3>
             <div className="row products mx-5">
