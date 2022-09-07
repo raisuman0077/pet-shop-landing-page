@@ -32,7 +32,7 @@ const BodySection = ({data}) => {
             <h3 className='b2-text py-5'>Featured Products</h3>
             <div className="row products mx-5">
                 {data.map((d,id)=>(
-                <div className="col-4 product-detail mb-4" key={id}>
+                <div className="col-lg-4 product-detail mb-4" key={id}>
                     <div className="card mx-5">
                     <img src={d.img} className="card-img py-4 px-4" alt="product" />
                     <div className="card-body">
@@ -58,7 +58,7 @@ const BodySection = ({data}) => {
             <h3 className='b2-text py-5'>Latest Products</h3>
             <div className="row products mx-5">
             {data.map((d,id)=>(
-                <div className="col-4 product-detail mb-4" key={id}>
+                <div className="col-lg-4 product-detail mb-4" key={id}>
                 <div className="mx-5">
                 <img src={d.img} className="card-img py-4 px-4" alt="product" />
                 <div className="card-body">
